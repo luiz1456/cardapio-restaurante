@@ -1,0 +1,42 @@
+.card {
+    min-width: 250px;
+    flex: 1;
+    background-color: #f3f3f3;
+    border: 1px solid #daa520;
+    border-radius: 10px;
+    box-shadow:  0 0 7px 3px #d1d1d1;
+}
+
+.containerImagem {
+    height: 250px;
+}
+
+.containerImagem img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.containerInfo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.categoria {
+    color: #daa520;
+    font-size: 15px;
+}
+
+.descricao {
+    height: 130px;
+    padding-top: 15px;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: end;
+}
